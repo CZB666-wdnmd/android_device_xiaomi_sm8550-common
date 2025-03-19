@@ -102,8 +102,8 @@ vendor/lib64/libxlog.so
 vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0.so
 
-# Audio - from dm3qxxx-user-14-UP1A.231005.007-S918BXXU6CXH7-release-keys
-vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so|f0fc53c87cf6e0fd504c929af889c6979604ad12
+# Audio
+vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so
 
 # Audio AGM
 vendor/lib64/libagm.so
@@ -394,8 +394,8 @@ vendor/lib64/libtestutils.so
 vendor/lib64/libtinyxml2_1.so
 vendor/lib64/libvmfilexfer.so
 
-# Display (SDM) - from  rtwo_g-user 14 U1TR34.8-30-13-2-2 5b4b0d-dde58 release-keys
-vendor/lib64/libsdm-color.so|c36b857c03f1ac8e89882fd59812ae501e4c9772
+# Display (SDM)
+vendor/lib64/libsdm-color.so
 
 # Display calibration data
 vendor/etc/display/LUT0.txt
@@ -941,7 +941,6 @@ odm/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc
 odm/etc/libnfc-nci.conf
 odm/etc/libnfc-nxp.conf
 odm/etc/libnfc-nxp_RF.conf
-odm/etc/permissions/android.hardware.nfc.beam.xml
 odm/lib64/libstnfc-auth.so
 odm/lib64/nfc_nci.nqx.default.hw.so
 odm/lib64/nfc_nci.st21nfc.st.so
